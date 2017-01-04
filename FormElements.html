@@ -24,6 +24,7 @@
 </head>
 <body>
 	<form action="someplace.php">
+
 		<fieldset>
 			<legend>Films you like</legend>
 			<div>
@@ -38,7 +39,7 @@
 				<label for="comedy">Comedy</label>
 				<input type="checkbox" name="comedy" id="comedy" value="comedy">
 			</div>
-			<div>
+				<div>
 				<label for="horror">Horror</label>
 				<input type="checkbox" name="horror" id="horror" value="horror">
 			</div>
@@ -66,6 +67,20 @@
 				<label for="gt59">60 or over</label>
 				<input type="radio" name="age" id="gt59" value="gt59">
 			</div>
+		</fieldset>
+		<fieldset>
+			<input name="country" list="country_name">
+			<datalist id="country_name">
+				<option value="Afghanistan">
+				<option value="Albania">
+				<option value="Algeria">
+				<option value="Andorra">
+				<option value="Armenia">
+				<option value="Australia">
+				<option value="Austria">
+				<option value="Azerbaijan">
+				<!-- etc. -->
+			</datalist>
 		</fieldset>
 	</form>
 
